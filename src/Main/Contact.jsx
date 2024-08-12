@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Container, Row, Col, Form, Button, Alert, Card, Breadcrumb } from 'react-bootstrap';
-import { Formik, Field, Form as FormikForm, ErrorMessage } from 'formik';
+import { Container, Row, Col, Button, Alert, Card, Breadcrumb } from 'react-bootstrap';
+import { Formik, Field, Form as FormikForm } from 'formik';
 import * as Yup from 'yup';
 import Terms from './Terms';
 import { useNavigate } from 'react-router-dom';

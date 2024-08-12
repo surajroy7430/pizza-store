@@ -21,6 +21,7 @@ const Header = ({ setSearchResults }) => {
             src={logo}
             width={50}
             height={50}
+            alt='logo'
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

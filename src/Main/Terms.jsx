@@ -9,7 +9,7 @@ const Terms = () => {
         <div className="terms-content">
           <h2>1. Acceptance of Terms</h2>
           <p>
-            Thank you for using Pizza Hallen. These Terms of Service are intended to make you aware of your legal rights and responsibilities with respect to your access to and use of the Pizza Hallen website at <a target='_blank' href="https://pizzahallen.vercel.app/">www.pizzahallen.com</a> (the "Site") including but not limited to delivery of information via the website whether existing now or in the future that link to the Terms.
+            Thank you for using Pizza Hallen. These Terms of Service are intended to make you aware of your legal rights and responsibilities with respect to your access to and use of the Pizza Hallen website at <a target='_blank' rel='noreferrer' href="https://pizzahallen.vercel.app/">www.pizzahallen.com</a> (the "Site") including but not limited to delivery of information via the website whether existing now or in the future that link to the Terms.
           </p>
           
           <h2>2. Changes to These Terms</h2>
