@@ -1,6 +1,6 @@
 # Pizza Store React App
 
-This React application is a simple Pizza Store management system that allows users to view, add, edit, and update pizza listings. It does not include ordering or cart functionality.
+This React application is a simple Pizza Store management system that allows users to view, add, edit, and update and search pizza listings. It does not include ordering or cart functionality.
 
 ## Features
 
@@ -8,6 +8,7 @@ This React application is a simple Pizza Store management system that allows use
 - Add new pizza listings
 - Edit existing pizza information
 - Update pizza details
+- search pizza
 
 ## Prerequisites
 
