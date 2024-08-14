@@ -48,7 +48,9 @@ const Cards = () => {
               <Card.Body>
                 <Card.Title>{pizza.name}</Card.Title>
                 <Card.Text style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', gap: '1rem' }}>
-                  <span className='pizzaDescription'>{pizza.description}</span>
+                  <span className='pizzaDescription' title={pizza.description}>
+                    {pizza.description}
+                  </span>
                   <span>₹{pizza.price} for {pizza.size}</span>
                 </Card.Text>
                 <Link to={`/update-pizza/${pizza.id}`}>

@@ -115,3 +115,18 @@ nav.navbar {
   align-items: center;
   height: 100vh;
 }
+
+li.breadcrumb-item a {
+  color: black;
+  text-decoration: none;
+}
+li.breadcrumb-item a:hover {
+  color: rgb(13,110,253);
+}
+a.nav-link {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+a.nav-link:hover {
+  font-weight: 600;
+}

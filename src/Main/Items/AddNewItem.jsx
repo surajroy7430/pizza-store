@@ -50,6 +50,7 @@ const AddNewItem = () => {
     <Container className="mt-5">
       <Breadcrumb>
         <Breadcrumb.Item onClick={() => navigate('/')}>Home</Breadcrumb.Item>
+        <Breadcrumb.Item onClick={() => navigate('/pizzas')}>Pizzas</Breadcrumb.Item>
         <Breadcrumb.Item active>Add Pizza Details</Breadcrumb.Item>
       </Breadcrumb>
       <h2>Add New Pizza</h2>
