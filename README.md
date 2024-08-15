@@ -10,6 +10,13 @@ This React application is a simple Pizza Store management system that allows use
 - Update pizza details
 - search pizza
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/8ca34593-2d75-4ae6-862e-3c09b42e78f2)
+![image](https://github.com/user-attachments/assets/dd157523-dc89-4c7a-a6c4-6171b7b7e22f)
+![image](https://github.com/user-attachments/assets/6efa4a97-8e3b-4448-8428-bf93800ddad7)
+![image](https://github.com/user-attachments/assets/f3c3e90e-5aba-4bdc-aebc-ca4395a5c69b)
+![image](https://github.com/user-attachments/assets/e1aa4021-d582-4b7a-aac5-508d360fbd24)
+
 ## Prerequisites
 
 - Node.js (v14.0.0 or later)
