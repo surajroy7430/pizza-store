@@ -74,7 +74,7 @@ const Cards = () => {
                   </span>
                   <span>₹{pizza.price} for {pizza.size}</span>
                 </Card.Text>
-                <Link to={`/update-pizza/${pizza.id}`}>
+                <Link to={`/update-pizza/${pizza.id}`} disabled={isFallback}>
                   <Button variant="primary" className="me-2" disabled={isFallback}>
                     Update
                   </Button>
