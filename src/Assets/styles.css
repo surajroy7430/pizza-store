@@ -45,6 +45,11 @@ nav.navbar {
     align-items: center;
   }
 }
+@media screen and (max-width: 576px) {
+  .carousel-img {
+    height: 300px;
+  }
+}
 
 .terms-of-service {
   max-width: 800px;
