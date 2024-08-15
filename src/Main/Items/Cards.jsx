@@ -74,11 +74,13 @@ const Cards = () => {
                   </span>
                   <span>₹{pizza.price} for {pizza.size}</span>
                 </Card.Text>
-                <Link to={`/update-pizza/${pizza.id}`} disabled={isFallback}>
-                  <Button variant="primary" className="me-2" disabled={isFallback}>
-                    Update
-                  </Button>
-                </Link>
+                {!isFallback ? (
+                  <Link to={`/update-pizza/${pizza.id}`}>
+                    <Button variant="primary" className="me-2">Update</Button>
+                  </Link>
+                ) : (
+                  <Button variant="primary" className="me-2" disabled>Update</Button>
+                )}
                 <Button variant="danger" onClick={() => handleDelete(pizza.id)}>Delete</Button>
               </Card.Body>
             </Card>
