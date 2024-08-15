@@ -5,19 +5,40 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Cards = () => {
   const [pizzas, setPizzas] = useState([]);
+  const [isFallback, setIsFallback] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
     const fetchPizzas = async () => {
-      const result = await axios.get('http://localhost:5000/pizzas');
-      setPizzas(result.data);
+      try {
+        const result = await axios.get('http://localhost:5000/pizzas');
+        setPizzas(result.data);
+        setIsFallback(false);
+      } catch (error) {
+        console.error('Failed to fetch from localhost, trying alternative API:', error);
+        try {
+          const fallbackResult = await axios.get('https://surajroy7430.github.io/jsondata/db.json');
+          setPizzas(fallbackResult.data.pizzas);
+          setIsFallback(true);
+        } catch (fallbackError) {
+          console.error('Failed to fetch from alternative API:', fallbackError);
+        }
+      }
     };
     fetchPizzas();
   }, []);
 
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:5000/pizzas/${id}`);
-    setPizzas(pizzas.filter(pizza => pizza.id !== id));
+    if (!isFallback) {
+      try {
+        await axios.delete(`http://localhost:5000/pizzas/${id}`);
+        setPizzas(pizzas.filter(pizza => pizza.id !== id));
+      } catch (error) {
+        console.error('Failed to delete the pizza:', error);
+      }
+    } else {
+      console.log('Delete function is disabled when using fallback API.');
+    }
   };
 
   return (
@@ -54,7 +75,9 @@ const Cards = () => {
                   <span>₹{pizza.price} for {pizza.size}</span>
                 </Card.Text>
                 <Link to={`/update-pizza/${pizza.id}`}>
-                  <Button variant="primary" className="me-2">Update</Button>
+                  <Button variant="primary" className="me-2" disabled={isFallback}>
+                    Update
+                  </Button>
                 </Link>
                 <Button variant="danger" onClick={() => handleDelete(pizza.id)}>Delete</Button>
               </Card.Body>
