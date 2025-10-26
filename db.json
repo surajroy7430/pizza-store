@@ -1,0 +1,124 @@
+{
+  "pizzas": [
+    {
+      "image": "https://foodbyjonister.com/wp-content/uploads/2020/01/MargheritaPizza.jpg",
+      "name": "MARGHERITA PIZZA",
+      "description": "Cheesy Classic",
+      "price": 249,
+      "size": "Large",
+      "id": "00de"
+    },
+    {
+      "id": "1085",
+      "image": "https://www.grabon.in/indulge/wp-content/uploads/2023/11/Achari-Do-Pyaza-Pizza.jpg",
+      "name": "ACHARI DO PYAJA",
+      "description": "Tangy & spicy achari flavours on a super cheesy onion pizza- as desi as it gets!",
+      "price": 575,
+      "size": "Large"
+    },
+    {
+      "id": "f8d4",
+      "image": "https://mypotandpantales.wordpress.com/wp-content/uploads/2021/05/b005a9f1-bffb-428c-a744-af031700104d.jpg?w=1024",
+      "name": "MOROCCAN SPICE PASTA PIZZA",
+      "description": "A pizza loaded with spicy combination of Harissa sauce and delicious pasta",
+      "price": 575,
+      "size": "Large"
+    },
+    {
+      "id": "48ca",
+      "image": "https://img.thecdn.in/167599/1659781548934_SKU-1250_0.jpg?width=600",
+      "name": "DOUBLE CHEESE MARGHERITA",
+      "description": "Loaded with extra cheese",
+      "price": 399,
+      "size": "Medium"
+    },
+    {
+      "id": "7c7c",
+      "image": "https://www.dvo.com/recipe_pages/rhodesbread/Fresh_Veggie_Pizza.jpg",
+      "name": "FRESH VEGGIE",
+      "description": "Delectable combination of onion & capsicum, a veggie lovers pick",
+      "price": 225,
+      "size": "Small"
+    },
+    {
+      "id": "11c6",
+      "image": "https://cdn.dotpe.in/longtail/store-items/6385438/BL2eaa8Y.jpeg",
+      "name": "CHEESE N CORN",
+      "description": "Sweet & Juicy Golden corn and 100% real mozzarella cheese in a delectable combination!",
+      "price": 639,
+      "size": "Large"
+    },
+    {
+      "id": "0177",
+      "image": "https://www.scrumptiously.com/wp-content/uploads/2023/01/CheeseTomatoPizza.webp",
+      "name": "CHEESE & TOMATO",
+      "description": "Cheese & Juicy Tomato",
+      "price": 639,
+      "size": "Large"
+    },
+    {
+      "id": "ed46",
+      "image": "https://dukaan.b-cdn.net/1000x1000/webp/93727/7b51d1d7-3cfd-4629-bfcf-4d818c38e1cc.png",
+      "name": "CREAMY TOMATO PASTA PIZZA",
+      "description": "Loaded with a delicious creamy tomato pasta topping, green capsicum, crunchy red and yellow bell peppers and black olives.",
+      "price": 395,
+      "size": "Medium"
+    },
+    {
+      "id": "ad09",
+      "image": "https://www.cardapio.donnagulla.com.br/wp-content/uploads/2023/02/chocolate_banana.png",
+      "name": "CHOCOLATE & BANANA",
+      "description": "made with chocolate sauce and fresh sliced banana",
+      "price": 239,
+      "size": "Medium"
+    },
+    {
+      "id": "f7f6",
+      "image": "https://assets.wsimgs.com/wsimgs/ab/images/dp/recipe/202350/0004/img59l.jpg",
+      "name": "TOMATO & MUSHROOMS",
+      "description": "Combination of mushroom and tomato with creamy tomato sauce",
+      "price": 129,
+      "size": "Medium"
+    },
+    {
+      "id": "1976",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2023/07/Potato-and-rosemary-pizzas-24b4dfe.jpg?resize=768,574",
+      "name": "ROSEMARY POTATO MAKHNI PIZZA",
+      "description": "Pizza with Makhni sauce, rosemary potato and our fresh homemade mozzarella cheese.",
+      "price": 539,
+      "size": "Large"
+    },
+    {
+      "id": "1f01",
+      "image": "https://www.alfrescoallnatural.com/wp-content/uploads/2024/03/abby_thome-Abby-Thome-Summer-Sweet-Italian-Pizza-Sweet-Italian-Style_800x582_72.jpg",
+      "name": "ITALIAN FRESH MEDLEY PIZZA",
+      "description": "Loaded with vibrant seasonal veggies and garnished with red bell pepper reduction and black olives.",
+      "price": 600,
+      "size": "Medium"
+    },
+    {
+      "id": "f93c",
+      "image": "https://www.giftstokolkata.com/wp-content/uploads/2022/11/pizza-hot-n-spicy-chicken-pizza-pizza-hot-n-spicy-chicken-pizza.jpg",
+      "name": "CHICKEN EXPLOSION PIZZA",
+      "description": "An overdose of chicken served in 3 different styles served with rosemary infused oil.",
+      "price": 600,
+      "size": "Medium"
+    },
+    {
+      "id": "328d",
+      "image": "https://www.allrecipes.com/thmb/qZ7LKGV1_RYDCgYGSgfMn40nmks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg",
+      "name": "BARBECUE CHICKEN PIZZA",
+      "description": "Finest recipe of flavorful barbecue chicken, just rightly cooked served in our house special san marzano tomato sauce.",
+      "price": 549,
+      "size": "Medium"
+    },
+    {
+      "image": "https://i.pinimg.com/originals/56/de/6c/56de6c9452c7dbd17c5b1703bf7fa27b.jpg",
+      "name": "HEART SHAPED PIZZA",
+      "description": "Hand tossed heart shaped pizza.",
+      "price": 680,
+      "size": "Large",
+      "id": "d7a2"
+    }
+  ]
+}
